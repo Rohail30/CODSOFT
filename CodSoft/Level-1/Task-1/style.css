@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* gap: 2%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* background: rgb(238,174,202); */
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.6) 100%); */
+    /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); */
+    background-image: linear-gradient(to right top, #170537, #003e7d, #0079ad, #00b4b7, #12eb9f);
+    /* background: url(Images/cool.jpeg); */
+}
+
+.navbar{
+    height: 70px;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,112,9,0) 51%, rgba(0,212,255,1) 100%); */
+}
+
+.logo img{
+    cursor: pointer;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.other{
+    display: flex;
+    flex-direction: row;
+}
+
+.mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 20px;
+    gap: 50px;
+}
+
+.mid p{
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+
+.mid p:hover{
+    cursor: pointer;
+    color: rgb(44, 44, 207);
+}
+
+.login{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background: linear-gradient(90deg, rgba(107,56,78,1) 0%, rgba(56,34,122,1) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.login:hover{
+    width: 105px;
+    height: 55px;
+}
+
+.slider{
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 1%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.img{
+    border-radius: 10px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    opacity: 0.9;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+.about{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 1%;
+    /* background-image: linear-gradient(to top, #bde4c5, #b8e8c3, #b4ecc0, #aeefbe, #a9f3bc); */
+    /* background: url(Images/ab.jpg); */
+    /* object-fit: contain; */
+    /* background-size: cover; Make the background image cover the div */
+    /* background-repeat: no-repeat; Prevent the background image from repeating */
+    /* background-position: center; Center the background image */
+    color: white;
+    background: linear-gradient(90deg, rgba(107,56,78,1) 0%, rgba(56,34,122,1) 100%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.about .sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30%;
+    gap: 10px;
+    
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-image: linear-gradient(to top, #f0ffd7, #e9fcda, #e3f8dd, #dff4e0, #dcf0e1);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.contact .sec1{
+    margin-top: 20px;
+}
+
+.contact .sec2{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 90%;
+    gap: 20px;
+}
+
+.contact .sec2 img{
+    width: 80px;
+    height: 80px;
+}
+
+.contact .con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+button{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #000000, #000000);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.5s;
+}
